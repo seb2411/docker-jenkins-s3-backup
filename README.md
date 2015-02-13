@@ -12,11 +12,11 @@ To backup your Jenkins home file:
         -e S3_BUCKET=[Your S3 Bucket]
         -e S3_PATH=[Your S3 Path]
         --volumes-from [the jenkins container name you want to backup]
-        seb24/jenkins-s3-backup
+        seb24/docker-jenkins-s3-backup
 
 *Replace the values with [] using your values*
 
-## Configuration 
+## Configuration
 
 Name                    |   Default Value   |   Description
 ---                     |   ---             |   ---
